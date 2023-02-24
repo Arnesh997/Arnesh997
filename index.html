@@ -89,6 +89,28 @@
             opacity: 1;
             right: 0;
         }
+        
+        .topics {
+            padding: auto;
+            margin: auto;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        /* Clearfix (clear floats) */
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
     </style>
 </head>
 
@@ -110,23 +132,48 @@
             </div>
         </div>
 
+        <br>
+        <h2 class="topics">Experiences</h2>
+        <p>
+            <ul>
+                <li>
+                    <h6 style=" font-size: large; ">Research Intern @ Indian Statistical Institute, Kolkata</h6>
+                </li>
+                <li>
+                    <h6 style="font-size: large;">Equity Research Analyst & Quant @ Edinburgh University Trading and Investment Club (EUTIC)</h6>
+                </li>
+                <li>
+                    <h6 style="font-size: large;">Customer Trading Assistant @ J Sainsbury 's PLC </h6>
+                </li>
+            </ul>
+        </p><br>
 
-        <h2 class="topics">Past Experiences</h2>
-        <p class="introduction">TODO - Add Experiences</p>
+        <h2 class="topics ">Projects</h2>
+        <p>
+            <div class="row" style="margin: auto;">
+                <div class="column">
+                    <a href="https://github.com/Arnesh997/KNN-Classify" target="_blank"><img src=" http://127.0.0.1:5500/static/KNN.jpg " alt="KNN Classifier " style="width:100%; height:fit-content ">
+                </div>
+                <div class="column ">
+                    <a href="https://github.com/Arnesh997/Simple-ChatBot" target="_blank"><img src=" http://127.0.0.1:5500/static/bot.jpg " alt="ChatBot " style="width:100% "></a>
+                </div>
+                <div class="column ">
+                    <a href="https://github.com/Arnesh997/ToDo-App" target="_blank"><img src=" http://127.0.0.1:5500/static/todo.jpg " alt="To-DO Crud Application " style="width:100% "></a>
+                </div>
+            </div>
+        </p>
 
 
-        <h2 class="topics">Projects</h2>
-        <p class="introuction">TODO - Add Projects</p>
-        <div class="text-center">
-            <a href="mailto:arnesh997@gmail.com?"> <button class="button" style="vertical-align:middle"><span>Email Arnesh </span></button></a>
+        <div class="text-center ">
+            <a href="mailto:arnesh997@gmail.com? "> <button class="button " style="vertical-align:middle "><span>Email Arnesh </span></button></a>
         </div>
     </div>
-    <div class="text-center">
+    <div class="text-center ">
         <ul>
-            <li style="display: inline-block;padding:10px"><a href="https://www.linkedin.com/in/arneshsaha/" target="_blank">Linkedin</a></li>
-            <li style=" display: inline-block;padding:10px"><a href="https://drive.google.com/file/d/1tm4HNtt6-4SQvo5KnMmjoagGgHMWtvRH/view?usp=sharing" target="_blank">Resume</a></li>
-            <li style=" display: inline-block;padding:10px">
-                <a href="https://github.com/Arnesh997" target="_blank">Github</a></li>
+            <li style="display: inline-block;padding:10px "><a href="https://www.linkedin.com/in/arneshsaha/ " target="_blank ">Linkedin</a></li>
+            <li style=" display: inline-block;padding:10px "><a href="https://drive.google.com/file/d/1tm4HNtt6-4SQvo5KnMmjoagGgHMWtvRH/view?usp=sharing " target="_blank ">Resume</a></li>
+            <li style=" display: inline-block;padding:10px ">
+                <a href="https://github.com/Arnesh997 " target="_blank ">Github</a></li>
     </div>
     <footer>
         <p class="text-center ">&copy; 2023 Arnesh Saha. All rights reserved.</p>
